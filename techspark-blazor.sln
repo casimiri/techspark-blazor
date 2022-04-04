@@ -1,14 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32314.265
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechSpark.Blazor.Reusable", "TechSpark.Blazor.Reusable\TechSpark.Blazor.Reusable.csproj", "{ED64F975-92D8-4305-9537-2962648AFEEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechSpark.Blazor.Reusable.TestUI", "TechSpark.Blazor.Reusable.TestUI\TechSpark.Blazor.Reusable.TestUI.csproj", "{580EC268-F1BC-4FAC-896A-EEDEB4B2109B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED64F975-92D8-4305-9537-2962648AFEEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED64F975-92D8-4305-9537-2962648AFEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED64F975-92D8-4305-9537-2962648AFEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED64F975-92D8-4305-9537-2962648AFEEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{580EC268-F1BC-4FAC-896A-EEDEB4B2109B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{580EC268-F1BC-4FAC-896A-EEDEB4B2109B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{580EC268-F1BC-4FAC-896A-EEDEB4B2109B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{580EC268-F1BC-4FAC-896A-EEDEB4B2109B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C154DF1-2B60-419B-808E-9C01E9D7DB61}
 	EndGlobalSection
 EndGlobal

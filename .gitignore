@@ -1,0 +1,17 @@
+
+TechSpark.Blazor.Reusable.TestUI/obj/
+TechSpark.Blazor.Reusable.TestUI/bin/
+TechSpark.Blazor.Reusable/obj/
+TechSpark.Blazor.Reusable/bin/
+.vs/
+bin/
+obj/
+*.user
+artifacts/
+.vscode/
+.dotnet/
+*.binlog
+.vs/ProjectEvaluation/techspark-blazor.projects.v2
+.vs/techspark-blazor/v17/.suo
+TechSpark.Blazor.Reusable.TestUI/obj/TechSpark.Blazor.Reusable.TestUI.csproj.nuget.g.targets
+TechSpark.Blazor.Reusable.TestUI/obj/Debug/net6.0/project.razor.json

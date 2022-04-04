@@ -1,0 +1,20 @@
+﻿<h3>@Title</h3>
+
+<DisplayToDoList ListName="Active tasks" ></DisplayToDoList>
+<DisplayToDoList ListName="Completed tasks" ></DisplayToDoList>
+
+
+@code {
+    [Parameter]
+    public string Title { get; set; }
+
+    private List<ToDoItem> _items;
+
+    protected override void OnInitialized()
+    {
+        _items = new();
+    }
+
+
+    
+}
