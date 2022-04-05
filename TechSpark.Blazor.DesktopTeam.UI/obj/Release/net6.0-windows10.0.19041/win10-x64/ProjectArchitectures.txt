@@ -1,0 +1,1 @@
+D:\repos\techspark-blazor\TechSpark.Blazor.DesktopTeam.UI\TechSpark.Blazor.DesktopTeam.UI.csproj;neutral
