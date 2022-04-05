@@ -1,22 +1,22 @@
 ﻿@inject IStringLocalizer<MainLayout> L
 
-<MudAppBar Elevation="0">
+<MudAppBar Elevation="10" Color="Color.Primary">
     <MudTooltip Text="Toggle Drawer">
         <MudIconButton Icon="@Icons.Rounded.Notes" Color="Color.Inherit" Edge="Edge.Start"
             OnClick="@((e) => DrawerToggle())" />
     </MudTooltip>
-     <MudButton Variant="Variant.Text" DisableElevation="true" Link="/">
-            @L["fullstackhero"]</MudButton>
+     <MudButton Variant="Variant.Text" DisableElevation="true" Link="/" Color="Color.Inherit">
+            @L["tech spark"]</MudButton>
     <MudSpacer />
     <MudHidden Breakpoint="Breakpoint.MdAndUp" Invert="true">
-        <MudButton DisableElevation Variant="Variant.Filled" Color="Color.Secondary"
+        @*<MudButton DisableElevation Variant="Variant.Filled" Color="Color.Secondary"
             Link="https://opencollective.com/fullstackhero" Target="_blank" StartIcon="@Icons.Material.Filled.Favorite">
-            @L["Sponsor"]</MudButton>
-        <MudDivider Vertical="true" FlexItem="true" DividerType="DividerType.Middle" Class="mx-4 my-5" />
+            @L["Sponsor"]</MudButton>*@
+        @*<MudDivider Vertical="true" FlexItem="true" DividerType="DividerType.Middle" Class="mx-4 my-5" />*@
         <MudTooltip Text="Support">
             <MudMenu Icon="@Icons.Filled.SupportAgent" Color="Color.Inherit" Dense="true" Direction="Direction.Right"
                 OffsetY="true">
-                <MudText Typo="Typo.body2" Class="px-4 py-2"><b>@L["Community"]</b></MudText>
+                @*<MudText Typo="Typo.body2" Class="px-4 py-2"><b>@L["Community"]</b></MudText>
                 <MudMenuItem Link="https://discord.gg/yQWpShsKrf" Target="_blank">@L["Discord"]</MudMenuItem>
                 <MudMenuItem Link="https://www.facebook.com/codewithmukesh" Target="_blank">@L["Facebook"]
                 </MudMenuItem>
@@ -24,7 +24,7 @@
                 <MudMenuItem Link="https://www.buymeacoffee.com/codewithmukesh" Target="_blank">Buy Me a Coffee!
                 </MudMenuItem>
                 <MudMenuItem Link="https://opencollective.com/fullstackhero" Target="_blank">Open Collective
-                </MudMenuItem>
+                </MudMenuItem>*@
                 <MudText Typo="Typo.body2" Class="px-4 py-2"><b>@L["Resources"]</b></MudText>
                 <MudMenuItem Link="https://fullstackhero.net/" Target="_blank">@L["Documentation"]
                 </MudMenuItem>
