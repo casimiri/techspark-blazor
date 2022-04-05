@@ -1,0 +1,221 @@
+@namespace Oqtane.Installer
+@using Oqtane.Interfaces
+@inject NavigationManager NavigationManager
+@inject IInstallationService InstallationService
+@inject ISiteService SiteService
+@inject IUserService UserService
+@inject IDatabaseService DatabaseService
+@inject IJSRuntime JSRuntime
+@inject IStringLocalizer<Installer> Localizer
+@inject IStringLocalizer<SharedResources> SharedLocalizer
+
+<div class="container">
+    <div class="row">
+        <div class="mx-auto text-center">
+            <img src="oqtane-black.png" />
+            <div style="font-weight: bold">@SharedLocalizer["Version"] @Constants.Version</div>
+        </div>
+    </div>
+    <hr class="app-rule" />
+    <div class="row justify-content-center">
+        <div class="col text-center">
+            <h2>@Localizer["DatabaseConfig"]</h2><br />
+            <div class="container">
+                <div class="row mb-1 align-items-center">
+                    <Label Class="col-sm-3" For="databasetype" HelpText="Select the type of database you wish to use" ResourceKey="DatabaseType">Database:</Label>
+                    <div class="col-sm-9">
+                        @if (_databases != null)
+                        {
+							<select id="databasetype" class="form-select custom-select" value="@_databaseName" @onchange="(e => DatabaseChanged(e))">
+                                @foreach (var database in _databases)
+                                {
+                                    if (database.IsDefault)
+                                    {
+                                        <option value="@database.Name" selected>@Localizer[@database.Name]</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@database.Name">@Localizer[@database.Name]</option>
+                                    }
+                                }
+							</select>
+                        }
+                    </div>
+                </div>
+                @{
+                    if (_databaseConfigType != null)
+                    {
+                        @DatabaseConfigComponent;
+                    }
+                }
+            </div>
+        </div>
+        <div class="col text-center">
+            <h2>@Localizer["ApplicationAdmin"]</h2><br />
+            <div class="container">
+                <div class="row mb-1 align-items-center">
+                    <Label Class="col-sm-3" For="username" HelpText="Provide a username for the primary user accountt" ResourceKey="Username">Username:</Label>
+                    <div class="col-sm-9">
+                        <input id="username" type="text" class="form-control" @bind="@_hostUsername" />
+                    </div>
+                </div>
+                <div class="row mb-1 align-items-center">
+                    <Label Class="col-sm-3" For="password" HelpText="Provide a password for the primary user account" ResourceKey="Password">Password:</Label>
+                    <div class="col-sm-9">
+                        <input id="password" type="password" class="form-control" @bind="@_hostPassword" />
+                    </div>
+                </div>
+                <div class="row mb-1 align-items-center">
+                    <Label Class="col-sm-3" For="confirm" HelpText="Please confirm the password entered above by entering it again" ResourceKey="Confirm">Confirm:</Label>
+                    <div class="col-sm-9">
+                        <input id="confirm" type="password" class="form-control" @bind="@_confirmPassword" />
+                    </div>
+                </div>
+                <div class="row mb-1 align-items-center">
+                    <Label Class="col-sm-3" For="email" HelpText="Provide the email address for the host user account" ResourceKey="Email">Email:</Label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" @bind="@_hostEmail" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="app-rule" />
+    <div class="row">
+        <div class="mx-auto text-center">
+            <button type="button" class="btn btn-success" @onclick="Install">@Localizer["InstallNow"]</button><br /><br />
+            <ModuleMessage Message="@_message" Type="MessageType.Error"></ModuleMessage>
+        </div>
+        <div class="app-progress-indicator" style="@_loadingDisplay"></div>
+    </div>
+    <div class="row">
+        <div class="mx-auto text-center">
+            <input type="checkbox" @bind="@_register" /> @Localizer["Register"]
+        </div>
+    </div>
+</div>
+
+@code {
+	private List<Database> _databases;
+	private string _databaseName;
+	private Type _databaseConfigType;
+	private object _databaseConfig;
+	private RenderFragment DatabaseConfigComponent { get; set; }
+
+	private string _hostUsername = string.Empty;
+	private string _hostPassword = string.Empty;
+	private string _confirmPassword = string.Empty;
+	private string _hostEmail = string.Empty;
+	private bool _register = true;
+	private string _message = string.Empty;
+	private string _loadingDisplay = "display: none;";
+
+	protected override async Task OnInitializedAsync()
+	{
+		_databases = await DatabaseService.GetDatabasesAsync();
+		if (_databases.Exists(item => item.IsDefault))
+		{
+			_databaseName = _databases.Find(item => item.IsDefault).Name;
+		}
+		else
+		{
+			_databaseName = "LocalDB";
+		}
+		LoadDatabaseConfigComponent();
+	}
+
+	private void DatabaseChanged(ChangeEventArgs eventArgs)
+	{
+		try
+		{
+			_databaseName = (string)eventArgs.Value;
+
+			LoadDatabaseConfigComponent();
+		}
+		catch
+		{
+			_message = Localizer["Error.DbConfig.Load"];
+		}
+	}
+
+	private void LoadDatabaseConfigComponent()
+	{
+		var database = _databases.SingleOrDefault(d => d.Name == _databaseName);
+		if (database != null)
+		{
+			_databaseConfigType = Type.GetType(database.ControlType);
+			DatabaseConfigComponent = builder =>
+			{
+				builder.OpenComponent(0, _databaseConfigType);
+				builder.AddComponentReferenceCapture(1, inst => { _databaseConfig = Convert.ChangeType(inst, _databaseConfigType); });
+				builder.CloseComponent();
+			};
+		}
+	}
+
+	protected override async Task OnAfterRenderAsync(bool firstRender)
+	{
+		if (firstRender)
+		{
+			var interop = new Interop(JSRuntime);
+			await interop.IncludeLink("", "stylesheet", "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css", "text/css", "sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w==", "anonymous", "");
+			await interop.IncludeScript("", "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js", "sha512-pax4MlgXjHEPfCwcJLQhigY7+N8rt6bVvWLFyUMuxShv170X53TRzGPmPkZmGBhk+jikR8WBM4yl7A9WMHHqvg==", "anonymous", "", "head");
+		}
+	}
+
+	private async Task Install()
+	{
+		var connectionString = String.Empty;
+		if (_databaseConfig is IDatabaseConfigControl databaseConfigControl)
+		{
+			connectionString = databaseConfigControl.GetConnectionString();
+		}
+
+		if (connectionString != "" && !string.IsNullOrEmpty(_hostUsername) && !string.IsNullOrEmpty(_hostPassword) && _hostPassword == _confirmPassword && !string.IsNullOrEmpty(_hostEmail) && _hostEmail.Contains("@"))
+		{
+			if (await UserService.ValidatePasswordAsync(_hostPassword))
+			{
+				_loadingDisplay = "";
+				StateHasChanged();
+
+				Uri uri = new Uri(NavigationManager.Uri);
+
+				var database = _databases.SingleOrDefault(d => d.Name == _databaseName);
+
+				var config = new InstallConfig
+				{
+					DatabaseType = database.DBType,
+					ConnectionString = connectionString,
+					Aliases = uri.Authority,
+					HostUsername = _hostUsername,
+					HostPassword = _hostPassword,
+					HostEmail = _hostEmail,
+					HostName = _hostUsername,
+					TenantName = TenantNames.Master,
+					IsNewTenant = true,
+					SiteName = Constants.DefaultSite,
+					Register = _register
+				};
+
+				var installation = await InstallationService.Install(config);
+				if (installation.Success)
+				{
+					NavigationManager.NavigateTo(uri.Scheme + "://" + uri.Authority, true);
+				}
+				else
+				{
+					_message = installation.Message;
+					_loadingDisplay = "display: none;";
+				}				
+			}
+			else
+			{
+				_message = Localizer["Message.Password.Invalid"];				
+			}
+        }
+        else
+        {
+            _message = Localizer["Message.Require.DbInfo"];
+        }
+    }
+}
