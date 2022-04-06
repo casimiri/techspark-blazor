@@ -1,0 +1,14 @@
+/* _content/TechSpark.Blazor.Reusable/Component1.razor.rz.scp.css */
+.my-component[b-eo8svp8u7a] {
+    border: 2px dashed red;
+    padding: 1em;
+    margin: 1em 0;
+    background-image: url('background.png');
+}
+/* _content/TechSpark.Blazor.Reusable/ToDoCompoment.razor.rz.scp.css */
+.todo-component[b-p7nc3clqg4] {
+    border: 2px dashed red;
+    padding: 1em;
+    margin: 1em 0;
+    background-image: url('background.png');
+}

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Components.WebView.Maui;
+using MudBlazor.Services;
 using TechSpark.Blazor.DesktopTeam.UI.Data;
 
 namespace TechSpark.Blazor.DesktopTeam.UI
@@ -18,6 +19,7 @@ namespace TechSpark.Blazor.DesktopTeam.UI
 
             builder.Services.AddBlazorWebView();
             builder.Services.AddSingleton<WeatherForecastService>();
+            builder.Services.AddMudServices();
 
             return builder.Build();
         }

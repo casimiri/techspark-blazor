@@ -395,7 +395,7 @@
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -490,7 +490,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -1914,7 +1914,7 @@
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -2003,7 +2003,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -3427,7 +3427,7 @@
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -3516,7 +3516,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -4940,7 +4940,7 @@
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -5029,7 +5029,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -6453,7 +6453,7 @@
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -6542,7 +6542,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -7966,7 +7966,7 @@
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -8055,7 +8055,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -9479,7 +9479,7 @@
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -9568,7 +9568,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -10992,7 +10992,7 @@
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -11081,7 +11081,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -12505,7 +12505,7 @@
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -12594,7 +12594,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -14018,7 +14018,7 @@
           "lib/net6.0-android30.0/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -14107,7 +14107,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -15507,7 +15507,7 @@
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -15608,7 +15608,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -15998,7 +15998,7 @@
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -16093,7 +16093,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -16483,7 +16483,7 @@
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -16578,7 +16578,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -16968,7 +16968,7 @@
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -17063,7 +17063,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -17453,7 +17453,7 @@
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -17548,7 +17548,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -17938,7 +17938,7 @@
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -18033,7 +18033,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -18423,7 +18423,7 @@
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -18518,7 +18518,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -18908,7 +18908,7 @@
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -19003,7 +19003,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -19393,7 +19393,7 @@
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -19488,7 +19488,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -19878,7 +19878,7 @@
           "lib/net6.0-ios13.6/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -19973,7 +19973,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -20363,7 +20363,7 @@
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -20464,7 +20464,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -20854,7 +20854,7 @@
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -20949,7 +20949,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -21339,7 +21339,7 @@
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -21434,7 +21434,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -21824,7 +21824,7 @@
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -21919,7 +21919,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -22309,7 +22309,7 @@
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -22404,7 +22404,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -22794,7 +22794,7 @@
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -22889,7 +22889,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -23279,7 +23279,7 @@
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -23374,7 +23374,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -23764,7 +23764,7 @@
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -23859,7 +23859,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -24249,7 +24249,7 @@
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -24344,7 +24344,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -24734,7 +24734,7 @@
           "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Graphics.dll": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -24829,7 +24829,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -25313,7 +25313,7 @@
           }
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -25408,7 +25408,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -25864,7 +25864,7 @@
           "build/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -25953,7 +25953,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -26409,7 +26409,7 @@
           "build/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -26498,7 +26498,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -26954,7 +26954,7 @@
           "build/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -27043,7 +27043,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -27499,7 +27499,7 @@
           "build/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -27588,7 +27588,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -28044,7 +28044,7 @@
           "build/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -28133,7 +28133,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -28589,7 +28589,7 @@
           "build/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -28678,7 +28678,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -29140,7 +29140,7 @@
           "build/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -29229,7 +29229,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -29691,7 +29691,7 @@
           "build/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -29780,7 +29780,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -30242,7 +30242,7 @@
           "build/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "MudBlazor/6.0.9": {
+      "MudBlazor/6.0.10-dev.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components": "6.0.3",
@@ -30331,7 +30331,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "TechSpark.Blazor.Reusable/1.0.1": {
+      "TechSpark.Blazor.Reusable/2.0.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.3",
@@ -31505,10 +31505,10 @@
         "tools/x86/GenXbf.dll"
       ]
     },
-    "MudBlazor/6.0.9": {
-      "sha512": "PDBCp76JjU6JPTECPrVh4eHySgBuuTiDN9sd0YFlhIRuKs4X5/5nePqPIm5pfZiCHscRHeTfSRLs2Kjv40u6uw==",
+    "MudBlazor/6.0.10-dev.2": {
+      "sha512": "ZWfN+y+sT5x79g7Ub/Pv9Cm0S/1gtx36aNOeDGCjhEdWESbJuuIV1pLMX/qKHclGTvZ70NaoOWF4z7dJ55/WOA==",
       "type": "package",
-      "path": "mudblazor/6.0.9",
+      "path": "mudblazor/6.0.10-dev.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -31520,8 +31520,9 @@
         "buildTransitive/MudBlazor.props",
         "lib/net6.0/MudBlazor.dll",
         "lib/net6.0/MudBlazor.xml",
-        "mudblazor.6.0.9.nupkg.sha512",
+        "mudblazor.6.0.10-dev.2.nupkg.sha512",
         "mudblazor.nuspec",
+        "staticwebassets/MudBlazor.css",
         "staticwebassets/MudBlazor.min.css",
         "staticwebassets/MudBlazor.min.js"
       ]
@@ -31699,10 +31700,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "TechSpark.Blazor.Reusable/1.0.1": {
-      "sha512": "laGIyoo8NUeFupk8ZvYTGIm+Uvh0gsiLKZd45Kq4wFePZQ2GIBkU7ORw8+jpJahB4SqHozEij0eUmsRt/e8lFQ==",
+    "TechSpark.Blazor.Reusable/2.0.0": {
+      "sha512": "tiw5fWl29xZn/GWaOCvT+Zh1QFpptHAvJhRwvaBSrfy4H7DhgURsOSf+Z4N/VJKMoPG81oCGqlGyK4Blq0QCZw==",
       "type": "package",
-      "path": "techspark.blazor.reusable/1.0.1",
+      "path": "techspark.blazor.reusable/2.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -31714,7 +31715,7 @@
         "staticwebassets/TechSpark.Blazor.Reusable.bundle.scp.css",
         "staticwebassets/background.png",
         "staticwebassets/exampleJsInterop.js",
-        "techspark.blazor.reusable.1.0.1.nupkg.sha512",
+        "techspark.blazor.reusable.2.0.0.nupkg.sha512",
         "techspark.blazor.reusable.nuspec"
       ]
     },
@@ -33098,21 +33099,24 @@
       "Microsoft.AspNetCore.Components.WebView.Maui >= 6.0.200-preview.14.5099",
       "Microsoft.Maui.Dependencies >= 6.0.200-preview.14.5099",
       "Microsoft.Maui.Extensions >= 6.0.200-preview.14.5099",
-      "TechSpark.Blazor.Reusable >= 1.0.1"
+      "MudBlazor >= 6.0.10-dev.2",
+      "TechSpark.Blazor.Reusable >= 2.0.0"
     ],
     "net6.0-ios15.2": [
       "Microsoft.AspNetCore.Components.WebView.Maui >= 6.0.200-preview.14.5099",
       "Microsoft.Maui.Dependencies >= 6.0.200-preview.14.5099",
       "Microsoft.Maui.Extensions >= 6.0.200-preview.14.5099",
+      "MudBlazor >= 6.0.10-dev.2",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1",
-      "TechSpark.Blazor.Reusable >= 1.0.1"
+      "TechSpark.Blazor.Reusable >= 2.0.0"
     ],
     "net6.0-maccatalyst15.2": [
       "Microsoft.AspNetCore.Components.WebView.Maui >= 6.0.200-preview.14.5099",
       "Microsoft.Maui.Dependencies >= 6.0.200-preview.14.5099",
       "Microsoft.Maui.Extensions >= 6.0.200-preview.14.5099",
+      "MudBlazor >= 6.0.10-dev.2",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1",
-      "TechSpark.Blazor.Reusable >= 1.0.1"
+      "TechSpark.Blazor.Reusable >= 2.0.0"
     ],
     "net6.0-windows10.0.19041": [
       "Microsoft.AspNetCore.Components.WebView.Maui >= 6.0.200-preview.14.5099",
@@ -33120,7 +33124,8 @@
       "Microsoft.Maui.Dependencies >= 6.0.200-preview.14.5099",
       "Microsoft.Maui.Extensions >= 6.0.200-preview.14.5099",
       "Microsoft.WindowsAppSDK >= 1.0.0",
-      "TechSpark.Blazor.Reusable >= 1.0.1"
+      "MudBlazor >= 6.0.10-dev.2",
+      "TechSpark.Blazor.Reusable >= 2.0.0"
     ]
   },
   "packageFolders": {
@@ -33199,9 +33204,13 @@
             "version": "[6.0.200-preview.14.5099, )",
             "autoReferenced": true
           },
+          "MudBlazor": {
+            "target": "Package",
+            "version": "[6.0.10-dev.2, )"
+          },
           "TechSpark.Blazor.Reusable": {
             "target": "Package",
-            "version": "[1.0.1, )"
+            "version": "[2.0.0, )"
           }
         },
         "imports": [
@@ -33269,13 +33278,17 @@
             "version": "[6.0.200-preview.14.5099, )",
             "autoReferenced": true
           },
+          "MudBlazor": {
+            "target": "Package",
+            "version": "[6.0.10-dev.2, )"
+          },
           "System.Runtime.InteropServices.NFloat.Internal": {
             "target": "Package",
             "version": "[6.0.1, )"
           },
           "TechSpark.Blazor.Reusable": {
             "target": "Package",
-            "version": "[1.0.1, )"
+            "version": "[2.0.0, )"
           }
         },
         "imports": [
@@ -33325,13 +33338,17 @@
             "version": "[6.0.200-preview.14.5099, )",
             "autoReferenced": true
           },
+          "MudBlazor": {
+            "target": "Package",
+            "version": "[6.0.10-dev.2, )"
+          },
           "System.Runtime.InteropServices.NFloat.Internal": {
             "target": "Package",
             "version": "[6.0.1, )"
           },
           "TechSpark.Blazor.Reusable": {
             "target": "Package",
-            "version": "[1.0.1, )"
+            "version": "[2.0.0, )"
           }
         },
         "imports": [
@@ -33390,9 +33407,13 @@
             "target": "Package",
             "version": "[1.0.0, )"
           },
+          "MudBlazor": {
+            "target": "Package",
+            "version": "[6.0.10-dev.2, )"
+          },
           "TechSpark.Blazor.Reusable": {
             "target": "Package",
-            "version": "[1.0.1, )"
+            "version": "[2.0.0, )"
           }
         },
         "imports": [

@@ -14,27 +14,27 @@
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
   <ImportGroup Condition="'$(TargetFramework)' == '' AND '$(ExcludeRestorePackageImports)' != 'true'">
-    <Import Project="$(NuGetPackageRoot)mudblazor\6.0.9\buildMultiTargeting\MudBlazor.props" Condition="Exists('$(NuGetPackageRoot)mudblazor\6.0.9\buildMultiTargeting\MudBlazor.props')" />
-    <Import Project="$(NuGetPackageRoot)techspark.blazor.reusable\1.0.1\buildMultiTargeting\TechSpark.Blazor.Reusable.props" Condition="Exists('$(NuGetPackageRoot)techspark.blazor.reusable\1.0.1\buildMultiTargeting\TechSpark.Blazor.Reusable.props')" />
+    <Import Project="$(NuGetPackageRoot)mudblazor\6.0.10-dev.2\buildMultiTargeting\MudBlazor.props" Condition="Exists('$(NuGetPackageRoot)mudblazor\6.0.10-dev.2\buildMultiTargeting\MudBlazor.props')" />
+    <Import Project="$(NuGetPackageRoot)techspark.blazor.reusable\2.0.0\buildMultiTargeting\TechSpark.Blazor.Reusable.props" Condition="Exists('$(NuGetPackageRoot)techspark.blazor.reusable\2.0.0\buildMultiTargeting\TechSpark.Blazor.Reusable.props')" />
   </ImportGroup>
   <ImportGroup Condition="'$(TargetFramework)' == 'net6.0-android' AND '$(ExcludeRestorePackageImports)' != 'true'">
-    <Import Project="$(NuGetPackageRoot)mudblazor\6.0.9\buildTransitive\MudBlazor.props" Condition="Exists('$(NuGetPackageRoot)mudblazor\6.0.9\buildTransitive\MudBlazor.props')" />
-    <Import Project="$(NuGetPackageRoot)techspark.blazor.reusable\1.0.1\buildTransitive\TechSpark.Blazor.Reusable.props" Condition="Exists('$(NuGetPackageRoot)techspark.blazor.reusable\1.0.1\buildTransitive\TechSpark.Blazor.Reusable.props')" />
+    <Import Project="$(NuGetPackageRoot)mudblazor\6.0.10-dev.2\buildTransitive\MudBlazor.props" Condition="Exists('$(NuGetPackageRoot)mudblazor\6.0.10-dev.2\buildTransitive\MudBlazor.props')" />
+    <Import Project="$(NuGetPackageRoot)techspark.blazor.reusable\2.0.0\buildTransitive\TechSpark.Blazor.Reusable.props" Condition="Exists('$(NuGetPackageRoot)techspark.blazor.reusable\2.0.0\buildTransitive\TechSpark.Blazor.Reusable.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui\6.0.200-preview.14.5099\build\Microsoft.AspNetCore.Components.WebView.Maui.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui\6.0.200-preview.14.5099\build\Microsoft.AspNetCore.Components.WebView.Maui.props')" />
   </ImportGroup>
   <ImportGroup Condition="'$(TargetFramework)' == 'net6.0-ios' AND '$(ExcludeRestorePackageImports)' != 'true'">
-    <Import Project="$(NuGetPackageRoot)mudblazor\6.0.9\buildTransitive\MudBlazor.props" Condition="Exists('$(NuGetPackageRoot)mudblazor\6.0.9\buildTransitive\MudBlazor.props')" />
-    <Import Project="$(NuGetPackageRoot)techspark.blazor.reusable\1.0.1\buildTransitive\TechSpark.Blazor.Reusable.props" Condition="Exists('$(NuGetPackageRoot)techspark.blazor.reusable\1.0.1\buildTransitive\TechSpark.Blazor.Reusable.props')" />
+    <Import Project="$(NuGetPackageRoot)mudblazor\6.0.10-dev.2\buildTransitive\MudBlazor.props" Condition="Exists('$(NuGetPackageRoot)mudblazor\6.0.10-dev.2\buildTransitive\MudBlazor.props')" />
+    <Import Project="$(NuGetPackageRoot)techspark.blazor.reusable\2.0.0\buildTransitive\TechSpark.Blazor.Reusable.props" Condition="Exists('$(NuGetPackageRoot)techspark.blazor.reusable\2.0.0\buildTransitive\TechSpark.Blazor.Reusable.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui\6.0.200-preview.14.5099\build\Microsoft.AspNetCore.Components.WebView.Maui.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui\6.0.200-preview.14.5099\build\Microsoft.AspNetCore.Components.WebView.Maui.props')" />
   </ImportGroup>
   <ImportGroup Condition="'$(TargetFramework)' == 'net6.0-maccatalyst' AND '$(ExcludeRestorePackageImports)' != 'true'">
-    <Import Project="$(NuGetPackageRoot)mudblazor\6.0.9\buildTransitive\MudBlazor.props" Condition="Exists('$(NuGetPackageRoot)mudblazor\6.0.9\buildTransitive\MudBlazor.props')" />
-    <Import Project="$(NuGetPackageRoot)techspark.blazor.reusable\1.0.1\buildTransitive\TechSpark.Blazor.Reusable.props" Condition="Exists('$(NuGetPackageRoot)techspark.blazor.reusable\1.0.1\buildTransitive\TechSpark.Blazor.Reusable.props')" />
+    <Import Project="$(NuGetPackageRoot)mudblazor\6.0.10-dev.2\buildTransitive\MudBlazor.props" Condition="Exists('$(NuGetPackageRoot)mudblazor\6.0.10-dev.2\buildTransitive\MudBlazor.props')" />
+    <Import Project="$(NuGetPackageRoot)techspark.blazor.reusable\2.0.0\buildTransitive\TechSpark.Blazor.Reusable.props" Condition="Exists('$(NuGetPackageRoot)techspark.blazor.reusable\2.0.0\buildTransitive\TechSpark.Blazor.Reusable.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui\6.0.200-preview.14.5099\build\Microsoft.AspNetCore.Components.WebView.Maui.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui\6.0.200-preview.14.5099\build\Microsoft.AspNetCore.Components.WebView.Maui.props')" />
   </ImportGroup>
   <ImportGroup Condition="'$(TargetFramework)' == 'net6.0-windows10.0.19041' AND '$(ExcludeRestorePackageImports)' != 'true'">
-    <Import Project="$(NuGetPackageRoot)mudblazor\6.0.9\buildTransitive\MudBlazor.props" Condition="Exists('$(NuGetPackageRoot)mudblazor\6.0.9\buildTransitive\MudBlazor.props')" />
-    <Import Project="$(NuGetPackageRoot)techspark.blazor.reusable\1.0.1\buildTransitive\TechSpark.Blazor.Reusable.props" Condition="Exists('$(NuGetPackageRoot)techspark.blazor.reusable\1.0.1\buildTransitive\TechSpark.Blazor.Reusable.props')" />
+    <Import Project="$(NuGetPackageRoot)mudblazor\6.0.10-dev.2\buildTransitive\MudBlazor.props" Condition="Exists('$(NuGetPackageRoot)mudblazor\6.0.10-dev.2\buildTransitive\MudBlazor.props')" />
+    <Import Project="$(NuGetPackageRoot)techspark.blazor.reusable\2.0.0\buildTransitive\TechSpark.Blazor.Reusable.props" Condition="Exists('$(NuGetPackageRoot)techspark.blazor.reusable\2.0.0\buildTransitive\TechSpark.Blazor.Reusable.props')" />
     <Import Project="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\microsoft.windows.sdk.buildtools\10.0.22000.194\build\Microsoft.Windows.SDK.BuildTools.props" Condition="Exists('C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\microsoft.windows.sdk.buildtools\10.0.22000.194\build\Microsoft.Windows.SDK.BuildTools.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.windowsappsdk\1.0.0\build\Microsoft.WindowsAppSDK.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windowsappsdk\1.0.0\build\Microsoft.WindowsAppSDK.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui\6.0.200-preview.14.5099\build\Microsoft.AspNetCore.Components.WebView.Maui.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webview.maui\6.0.200-preview.14.5099\build\Microsoft.AspNetCore.Components.WebView.Maui.props')" />
