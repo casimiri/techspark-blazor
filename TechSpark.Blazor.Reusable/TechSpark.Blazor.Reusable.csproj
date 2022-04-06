@@ -4,7 +4,8 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-	<VersionPrefix>1.0.1</VersionPrefix>
+	<VersionPrefix>2.0.0</VersionPrefix>
+	<Description>Used for demos in Tech Spark presentation</Description>
   </PropertyGroup>
 
 
