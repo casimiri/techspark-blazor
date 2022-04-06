@@ -1,21 +1,40 @@
-﻿<h3>@Title</h3>
-<MudDivider/>
-<DisplayToDoList ListName="Active tasks" ></DisplayToDoList>
-<MudDivider/>
-<DisplayToDoList ListName="Completed tasks" ></DisplayToDoList>
+﻿
+<h1>@Title</h1>
+<h1>Todo (@todos.Count(todo => !todo.IsDone))</h1>
+
+<ul>
+    @foreach (var todo in todos)
+    {
+        <li>
+            <MudCheckBox @bind-Checked="todo.IsDone" T="bool">
+                <MudTextField @bind-Value="todo.Title" Label="Task" Variant="Variant.Filled" Margin="Margin.Dense"></MudTextField>
+
+            </MudCheckBox>
+
+            
+        </li>
+    }
+</ul>
+
+<MudStack Row="true">
+    <MudTextField Placeholder="Something todo..." @bind-Value="newTodo" Label="New todo" Variant="Variant.Outlined" Margin="Margin.Dense"></MudTextField>
+    <MudFab Color="Color.Primary" StartIcon="@Icons.Material.Filled.Add" @onclick="AddTodo" Size="Size.Small" />
+</MudStack>
+
 
 
 @code {
     [Parameter]
     public string Title { get; set; }
+    private List<ToDoItem> todos = new();
+    private string? newTodo;
 
-    private List<ToDoItem> _items;
-
-    protected override void OnInitialized()
+    private void AddTodo()
     {
-        _items = new();
+        if (!string.IsNullOrWhiteSpace(newTodo))
+        {
+            todos.Add(new ToDoItem { Title = newTodo });
+            newTodo = string.Empty;
+        }
     }
-
-
-    
 }

@@ -10,5 +10,7 @@ namespace TechSpark.Blazor.Reusable
     {
         public bool IsDone { get; set; }
         public string TaskName { get; set; } = string.Empty;
+
+        public string Title { get; set; }
     }
 }
